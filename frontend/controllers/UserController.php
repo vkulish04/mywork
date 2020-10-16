@@ -4,6 +4,8 @@
 namespace frontend\controllers;
 
 
-class UserController {
+use yii\db\ActiveRecord;
+
+class UserController extends ActiveRecord {
 
 }
